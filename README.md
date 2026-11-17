@@ -2,7 +2,7 @@
 
 This release contains project-authored WP-02/WP-03 and WP-04/WP-05/WP-06 analysis code, selected aggregate results, two figures, main and supplementary tables, and a publication-facing supplementary PDF with editable LaTeX. The manuscript, human-participant data and third-party source code are not included.
 
-The study, *Branch-specific directional validity of an EER-target fatigue representation in manufacturing tasks*, is authored by Krisztián Attila Bakon. No study-specific archive DOI is claimed. Source study and dataset links are in `SOURCE_REFERENCES.md` and `DATA_PROVENANCE.md`.
+The study, *Branch-specific directional validity of an EER-target fatigue representation in manufacturing tasks*, is authored by Krisztián Attila Bakon. The FATIGUE-VALID v1.0.0 release is archived on Zenodo at https://doi.org/10.5281/zenodo.24311879. The concept DOI is https://doi.org/10.5281/zenodo.24311878. Source study and dataset links are in `SOURCE_REFERENCES.md` and `DATA_PROVENANCE.md`.
 
 The findings concern perceived-fatigue direction in one source study and two tasks. UP/DOWN is model-defined; the 20 parameter pairs are related sensitivity evaluations, not independent replications. Internal state magnitudes do not establish physiological or practical effect sizes. CASE C is the frozen WP-06 procedural result; the independent MATERIAL adjudication is distinct.
 
