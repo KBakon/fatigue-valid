@@ -1,0 +1,33 @@
+\documentclass[10pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,amsmath,amssymb,booktabs,longtable,pdflscape,array}
+\usepackage[margin=0.8in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\setlength{\parindent}{0pt}\setlength{\parskip}{0.5em}
+\title{Supplementary Material: Branch-specific directional validity of an EER-target fatigue representation}
+\author{}
+\date{}
+\renewcommand{\thetable}{S\arabic{table}}
+\begin{document}\maketitle
+\begin{center}\small \copyright{} 2026 Krisztián Attila Bakon. Licensed under CC BY 4.0: \url{https://creativecommons.org/licenses/by/4.0/}.\end{center}
+\section*{S1. Eligibility, exclusions and cohort construction}
+This secondary analysis used the available processed release of a manufacturing-worker study. Recruitment, source-publication usable counts, processed-release file accounting, and the final model-eligible shared cohort are different reporting levels and should not be interpreted as consecutive steps of an exclusion flow. The source study recruited 43 participants; source-publication quality assessment reported 41 usable Composite and 36 usable Harnessing participants. The processed release contained 280 Composite and 241 Harnessing segment files in 40 and 35 participant folders, respectively. Missing source observations were not reconstructed or imputed.
+Eligibility was endpoint- and model-specific. Unresolved identity provenance or conflicting demographic metadata excluded observations from the common comparative cohort; additional FAM-B eligibility restrictions followed the applicability limits of its energy-expenditure equations. Endpoint-specific availability, signal-quality and duration rules were applied as specified in the frozen analysis contract. The paired structural-regime cohort comprised 37 distinct participants and 222 adjacent-work transitions, including 22 participants represented in both tasks. Task-specific counts overlap across tasks and must not be added as independent people. Table~\ref{tab:S1} summarizes the aggregate accounting levels.
+\input{tables/table_S1}
+\section*{S2. FAM-A claim-specific validation}
+FAM-A was evaluated through structural or ordinal implications rather than calibrated individual state magnitudes. ACC concerns active-work direction, PF\_REL concerns within-person ordinal progression, and REC concerns final-rest direction. Transition-level agreement was averaged within participant before task-level averaging; PF\_REL used within-person Kendall tau-b. Task-specific confidence intervals use participant-level bootstrap resampling; the matched task contrasts resample paired participant differences. Table~\ref{tab:S2} reports the existing aggregate estimates and uncertainty without participant-level observations. Confidence intervals spanning zero do not establish equivalence. These results do not establish numerical rate calibration, fatigue magnitude or recovery time constants.
+\input{tables/table_S2}
+\section*{S3. Bilateral asymmetry and synchrony}
+The secondary motion-distribution predictors used angular velocities from four arm sensors and a chest sensor. For sensor $s$, $M_s=\sqrt{\operatorname{mean}(g_{x,s}^2+g_{y,s}^2+g_{z,s}^2)}$. The right and left arm means were $R=(M_1+M_2)/2$ and $L=(M_3+M_4)/2$. Bilateral asymmetry was $|R-L|/(R+L+\epsilon)$, where $\epsilon$ was the smallest positive normal float64 value ($2.2250738585072014\times10^{-308}$ degrees/s). Bilateral synchrony was the zero-lag Pearson correlation between upper-arm angular-speed magnitudes $\sqrt{g_x^2+g_y^2+g_z^2}$ from sensors 1 and 3 on the common time grid, with no lag search or additional interpolation. Constant series made synchrony unavailable without excluding other features.
+Each feature was standardized over its eligible shared transitions using its pooled population standard deviation, fixed for bootstrap and sensitivity analyses. The regression weighted transitions equally and used 10,000 participant-ID bootstrap resamples with seed 20260926; each resampled participant carried all eligible observations from both tasks. The primary model included task and transition index. Matched-task and omitted-index variants are identified in Table~\ref{tab:S3}. The two secondary predictors were Holm-adjusted separately within each outcome family; the primary analysis was not changed. The saved sign-tail summaries are descriptive bootstrap summaries, not exact null-randomization tests. These motion proxies do not directly measure whole-body loading, localized physiological fatigue or a causal mechanism.
+\begin{landscape}
+\thispagestyle{empty}
+\input{tables/table_S3}
+\section*{S4. Internal model-state magnitude classification}
+The targeted magnitude diagnostic used the existing model-state reconstruction and retained all 20 related parameter pairs for the same observed transitions. Magnitudes describe the internal EER-related state scale, not measured physiological fatigue or practical worker benefit. The 0.1 criterion is an internal order-of-magnitude screen, not a physiological or ergonomic threshold.
+The procedural decision hierarchy was: A1 requires DOWN Q95 $\geq 0.1$ times the UP median in at least 18 of 20 pairs in each task. A2 requires the HIGH-DOWN participant-bootstrap upper confidence bound to be strictly below zero in at least 18 of 20 pairs in each task; zero-spanning and nonestimable groups do not count as support. CASE A requires both A1 and A2. Otherwise CASE B requires DOWN Q95 $<0.1$ times the UP median in at least 18 pairs per task. All remaining patterns are CASE C.
+A1 held for 20 of 20 pairs in each task; A2 held for 5 of 20 Composite pairs and 20 of 20 Harnessing pairs. No pair in either task met the below-screen criterion for CASE B. The procedural result was therefore CASE C (mixed magnitude evidence). The central UP and DOWN interquartile ranges overlapped in all 20 pairs in each task; that descriptive observation is not an additional CASE decision rule. The HIGH-DOWN Composite subgroups were small, with 7--8 participants and 12 transitions, so several intervals span zero. The 20 parameter pairs are related sensitivity evaluations, not independent replications. Table~\ref{tab:S4} reproduces the saved pair-specific summaries.
+\input{tables/table_S4}
+\end{landscape}
+\end{document}

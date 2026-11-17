@@ -1,0 +1,13 @@
+cohort,task,famB_regime,outcome,transitions,participants,estimate,ci_lower,ci_upper,status
+shared,Composite,FAM_B_UP,delta_agreement,86,31,0.0,0.0,0.0,EVIDENCE_INSUFFICIENT
+shared,Composite,FAM_B_DOWN,delta_agreement,35,22,-0.8257575757575758,-1.2424242424242424,-0.38636363636363635,DIRECTIONALLY_CONTRADICTED
+shared,Harnessing,FAM_B_UP,delta_agreement,53,25,0.0,0.0,0.0,EVIDENCE_INSUFFICIENT
+shared,Harnessing,FAM_B_DOWN,delta_agreement,48,23,-1.0,-1.2753623188405796,-0.7246376811594203,DIRECTIONALLY_CONTRADICTED
+shared,Pooled_secondary,FAM_B_UP,delta_agreement,139,36,0.0,0.0,0.0,EVIDENCE_INSUFFICIENT
+shared,Pooled_secondary,FAM_B_DOWN,delta_agreement,83,31,-0.8731182795698925,-1.1548387096774193,-0.5655913978494623,DIRECTIONALLY_CONTRADICTED
+matched_tasks,Composite,FAM_B_UP,delta_agreement,56,21,0.0,0.0,0.0,EVIDENCE_INSUFFICIENT
+matched_tasks,Composite,FAM_B_DOWN,delta_agreement,25,16,-0.8229166666666666,-1.3541666666666667,-0.25,DIRECTIONALLY_CONTRADICTED
+matched_tasks,Harnessing,FAM_B_UP,delta_agreement,41,21,0.0,0.0,0.0,EVIDENCE_INSUFFICIENT
+matched_tasks,Harnessing,FAM_B_DOWN,delta_agreement,43,20,-1.0,-1.2833333333333334,-0.7166666666666667,DIRECTIONALLY_CONTRADICTED
+matched_tasks,Pooled_secondary,FAM_B_UP,delta_agreement,97,22,0.0,0.0,0.0,EVIDENCE_INSUFFICIENT
+matched_tasks,Pooled_secondary,FAM_B_DOWN,delta_agreement,68,22,-0.8666666666666667,-1.203030303030303,-0.4818181818181818,DIRECTIONALLY_CONTRADICTED

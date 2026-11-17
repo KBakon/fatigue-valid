@@ -1,0 +1,7 @@
+cohort,contrast,participants,estimate,ci_lower,ci_upper
+shared_next_active_segments,Composite,32,0.6938111314977823,0.6751872239592123,0.711460458905875
+shared_next_active_segments,Harnessing,27,0.6594776330187794,0.6459470149968223,0.6728274879011172
+shared_next_active_segments,Composite-minus-Harnessing matched,22,0.03539081273645858,0.018748100665306563,0.052191570711643646
+eligible_participant_tasks_all_active_segments,Composite,32,0.6926268858478382,0.6737827019221503,0.7103870633589876
+eligible_participant_tasks_all_active_segments,Harnessing,27,0.6662380787969027,0.6532136088270422,0.679543419651684
+eligible_participant_tasks_all_active_segments,Composite-minus-Harnessing matched,22,0.029875953161783833,0.013567704293827369,0.04602937636100845

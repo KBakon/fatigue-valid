@@ -1,0 +1,27 @@
+{
+  "classification": "MIXED_MAGNITUDE_EVIDENCE",
+  "case": "C",
+  "A1": true,
+  "A2_conservative_negative_upper_CI": false,
+  "B": false,
+  "counts": {
+    "Composite": {
+      "screen_pass_pairs": 20,
+      "screen_below_pairs": 0,
+      "high_negative_estimate_pairs": 20,
+      "high_negative_CI_pairs": 5,
+      "high_nonestimable_pairs": 0,
+      "high_zero_spanning_pairs": 15
+    },
+    "Harnessing": {
+      "screen_pass_pairs": 20,
+      "screen_below_pairs": 0,
+      "high_negative_estimate_pairs": 20,
+      "high_negative_CI_pairs": 20,
+      "high_nonestimable_pairs": 0,
+      "high_zero_spanning_pairs": 0
+    }
+  },
+  "threshold_interpretation": "0.1 is solely the user-prespecified model-internal order-of-magnitude screen; not physiological/practical importance",
+  "no_final_G2_or_scientific_magnitude_verdict": true
+}

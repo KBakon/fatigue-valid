@@ -1,0 +1,10 @@
+endpoint,comparison,metric,participants,transitions,estimate,ci_lower,ci_upper,status
+ACC_A,Composite,direction_agreement,36,144,0.5,0.409722222222,0.590277777778,SUPPORTED_FOR_CLAIM
+ACC_A,Harnessing,direction_agreement,30,120,0.558333333333,0.466666666667,0.65,SUPPORTED_FOR_CLAIM
+ACC_A,Composite minus Harnessing (matched),paired_agreement_difference,27,not_applicable,-0.0648148148148,-0.175925925926,0.0462962962963,descriptive_contrast
+PF_REL_A,Composite,kendall_tau_b,34,not_applicable,0.827798563353,0.768839860785,0.878518481093,SUPPORTED_FOR_CLAIM
+PF_REL_A,Harnessing,kendall_tau_b,28,not_applicable,0.870380536066,0.812770909688,0.91473161071,SUPPORTED_FOR_CLAIM
+PF_REL_A,Composite minus Harnessing (matched),paired_kendall_tau_b_difference,23,not_applicable,-0.0681677483613,-0.155220085621,0.00882862187744,descriptive_contrast
+REC_A,Composite,direction_agreement,37,37,0.810810810811,0.648648648649,0.945945945946,SUPPORTED_FOR_CLAIM
+REC_A,Harnessing,direction_agreement,31,31,0.806451612903,0.612903225806,0.935483870968,SUPPORTED_FOR_CLAIM
+REC_A,Composite minus Harnessing (matched),paired_agreement_difference,28,not_applicable,0.0357142857143,-0.107142857143,0.178571428571,descriptive_contrast

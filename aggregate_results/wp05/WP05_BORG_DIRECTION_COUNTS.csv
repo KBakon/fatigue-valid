@@ -1,0 +1,13 @@
+cohort,task,famB_regime,participants,transitions,observed_down,observed_tie,observed_up
+shared,Composite,FAM_B_UP,31,86,3,32,51
+shared,Composite,FAM_B_DOWN,22,35,1,18,16
+shared,Harnessing,FAM_B_UP,25,53,3,18,32
+shared,Harnessing,FAM_B_DOWN,23,48,1,22,25
+shared,Pooled_secondary,FAM_B_UP,36,139,6,50,83
+shared,Pooled_secondary,FAM_B_DOWN,31,83,2,40,41
+matched_tasks,Composite,FAM_B_UP,21,56,2,20,34
+matched_tasks,Composite,FAM_B_DOWN,16,25,1,13,11
+matched_tasks,Harnessing,FAM_B_UP,21,41,2,16,23
+matched_tasks,Harnessing,FAM_B_DOWN,20,43,1,19,23
+matched_tasks,Pooled_secondary,FAM_B_UP,22,97,4,36,57
+matched_tasks,Pooled_secondary,FAM_B_DOWN,22,68,2,32,34
